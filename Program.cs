@@ -1,2 +1,16 @@
-﻿// Basic.Ketma-ketlik bo'limi uchun 3-amaliy vazifa
-// 1.Tub sonlar:
+﻿// 2 . Boluvchisiz-sonlar
+System.Console.Write(" Son kiriting : ");
+string sonStr = Console.ReadLine();
+int son = Convert.ToInt32(sonStr);
+
+string result = "Bo'luvchilari: ";
+
+for (int i = 2; i <= 10; i++)
+{
+    if(son % i == 0){
+        result += $" {i}," ;
+    }
+}
+
+System.Console.WriteLine(result);
+
