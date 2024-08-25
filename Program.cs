@@ -102,4 +102,33 @@ System.Console.WriteLine($" Output = {sum}");
 
 // 5.Armstrong sonlar:
 
+/*
+Console.Write(" Input = ");
+string numberStr = Console.ReadLine();
+int numberLength = numberStr.Length;
+
+int sum1 = 0;
+int sum2 = 0;
+
+for (int i = 0; i < numberLength; i++)
+{
+    sum2 = 1;
+    if(Convert.ToInt32(numberStr[i].ToString()) == 1){
+        sum1 = 1;
+        continue;
+    }
+    for (int j = 0; j < numberLength; j++)
+    {
+        sum2 *= Convert.ToInt32(numberStr[i].ToString());
+    }
+    sum1 += sum2;
+}
+if (Convert.ToInt32(numberStr) == sum1){
+    System.Console.WriteLine($"{numberStr} Armstrong son ");
+}else{
+    System.Console.WriteLine($"{numberStr} Armstrong son emas ");
+}
+*/
+
 // 6.Sifatli bo'luvchilar:
+/**/
