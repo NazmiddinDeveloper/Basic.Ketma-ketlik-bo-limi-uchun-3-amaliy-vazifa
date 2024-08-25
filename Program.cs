@@ -1,7 +1,11 @@
-﻿using System;
-// Basic.Ketma-ketlik bo'limi uchun 3-amaliy vazifa
-// 1.Tub sonlar:
+// -- Basic.Ketma-ketlik bo'limi uchun 3-amaliy vazifa
+/* 
+HAMMA VAZIFALAR JAMLANMASI USHUBU MASTER BRANCHGA PR QILINGAN 
+VA ALOHIDA ALOHIDA USHBU REPO BRANCHLARIDAHAM TOPISH MUMKIN 
+*/
 
+// 1.Tub sonlar:
+/*
 Console.Write(" Output :");
 string nStr = Console.ReadLine();
 int n = Convert.ToInt32(nStr);
@@ -21,3 +25,10 @@ if(x == 1){
 }else{
     Console.WriteLine(" Output = \"MURAKKAB\"");
 }
+*/
+// 2.Bo'luvchisiz sonlar: 
+// 3.Daraja hisoblash:
+// 4.Harajatlar to'plamini hisoblash:
+// 5.Armstrong sonlar:
+// 6.Sifatli bo'luvchilar:
+
